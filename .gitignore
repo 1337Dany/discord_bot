@@ -1,0 +1,64 @@
+# -----------------------------
+# Python bytecode / cache
+# -----------------------------
+__pycache__/
+*.py[cod]
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# Build artifacts (setuptools / wheel)
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# PyInstaller (just in case)
+# -----------------------------
+*.spec
+
+# -----------------------------
+# Test caches
+# -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+
+# -----------------------------
+# Ruff / MyPy / Pytype caches
+# -----------------------------
+.ruff_cache/
+.mypy_cache/
+
+# -----------------------------
+# Environment / config files
+# -----------------------------
+.env
+.env.*
+*.log
+
+# -----------------------------
+# IDE / Editor files
+# -----------------------------
+.idea/
+.vscode/
+*.iml
+
+# -----------------------------
+# Misc tools
+# -----------------------------
+.pypirc       # PyPI config
+.cursorignore # Cursor editor
+.cursorindexingignore
+
+# -----------------------------
+# Project-specific
+# -----------------------------
+# (nothing yet)
